@@ -6,7 +6,6 @@ import com.slowcloud.yousummerizer.summary.dto.YoutubeSummaryGetResponse;
 import com.slowcloud.yousummerizer.summary.service.YoutubeSummaryService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
