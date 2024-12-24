@@ -37,6 +37,13 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.security:spring-security-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+	implementation 'dev.langchain4j:langchain4j-open-ai-spring-boot-starter:0.36.2'
+	implementation 'dev.langchain4j:langchain4j-spring-boot-starter:0.36.2'
+
+	implementation 'com.google.api-client:google-api-client:1.23.0'
+	implementation 'com.google.oauth-client:google-oauth-client-jetty:1.23.0'
+	implementation 'com.google.apis:google-api-services-youtube:v3-rev222-1.25.0'
 }
 
 hibernate {
