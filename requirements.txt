@@ -1,0 +1,3 @@
+langchain
+openai
+youtube_dl  # Dependency for YoutubeLoader
